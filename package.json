@@ -1,7 +1,7 @@
 {
     "name": "snes-controller",
     "description": "snes-controller is a node package that exposes events for every button on the SNES controller.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "homepage": "https://github.com/carldanley/grunt-vagrant-ssh",
     "author": {
         "name": "Carl Danley",
@@ -31,7 +31,6 @@
     "files": [
         "gamepad.json",
         "index.js",
-        "readme.md",
-        "gamepad.jpg"
+        "readme.md"
     ]
 }

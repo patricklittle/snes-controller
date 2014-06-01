@@ -44,7 +44,7 @@ controller.on( 'start:release', function() {
 
 This library was built and tested with the Tomee SNES USB Controller pictured below:
 
-![./gamepad.jpg](./gamepad.jpg)
+![https://raw.githubusercontent.com/carldanley/snes-controller/master/gamepad.jpg](https://raw.githubusercontent.com/carldanley/snes-controller/master/gamepad.jpg)
 
 ## License
 
