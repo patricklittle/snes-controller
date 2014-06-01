@@ -1,0 +1,12 @@
+{
+    "name": "snes-controller",
+    "description": "snes-controller is a node package that exposes events for every button on the SNES controller.",
+    "version": "0.1.0",
+    "engines": {
+        "node": ">= 0.10.28"
+    },
+    "main" : "index",
+    "dependencies": {
+        "node-hid": ">= 0.3.1"
+    }
+}
