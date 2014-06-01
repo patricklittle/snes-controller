@@ -2,11 +2,35 @@
     "name": "snes-controller",
     "description": "snes-controller is a node package that exposes events for every button on the SNES controller.",
     "version": "0.1.0",
+    "homepage": "https://github.com/carldanley/grunt-vagrant-ssh",
+    "author": {
+        "name": "Carl Danley",
+        "url": "https://github.com/carldanley/snes-controller"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:carldanley/snes-controller.git"
+    },
+    "bugs": {
+        "url": "https://github.com/carldanley/snes-controller/issues"
+    },
+    "keywords": [
+        "snes",
+        "controller",
+        "snes-controller",
+        "gamepad",
+        "game controller"
+    ],
     "engines": {
         "node": ">= 0.10.28"
     },
     "main" : "index",
     "dependencies": {
         "node-hid": ">= 0.3.1"
-    }
+    },
+    "files": [
+        "gamepad.json",
+        "index.js",
+        "readme.md"
+    ]
 }
