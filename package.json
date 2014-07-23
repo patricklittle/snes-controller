@@ -1,7 +1,7 @@
 {
     "name": "snes-controller",
     "description": "snes-controller is a node package that exposes events for every button on the SNES controller.",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "homepage": "https://github.com/carldanley/snes-controller",
     "author": {
         "name": "Carl Danley",
