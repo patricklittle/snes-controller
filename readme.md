@@ -31,15 +31,32 @@ controller.on( 'left:press', function() {
 controller.on( 'right:press', function() {
     console.log( 'right' );
 } );
-
 controller.on( 'x:press', function() {
     console.log( 'x' );
+} );
+controller.on( 'y:press', function() {
+    console.log( 'y' );
+} );
+controller.on( 'a:press', function() {
+    console.log( 'a' );
+} );
+controller.on( 'b:press', function() {
+    console.log( 'b' );
+} );
+controller.on( 'l:press', function() {
+    console.log( 'L' );
+} );
+controller.on( 'r:press', function() {
+    console.log( 'R' );
 } );
 controller.on( 'start:press', function() {
     console.log( 'start:press' );
 } );
 controller.on( 'start:release', function() {
     console.log( 'start:release' );
+} );
+controller.on( 'slect:press', function() {
+    console.log( 'selct' );
 } );
 ```
 
