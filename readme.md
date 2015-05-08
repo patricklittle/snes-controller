@@ -2,6 +2,8 @@
 
 > snes-controller is a node package that exposes events for every button on the SNES controller.
 
+This folk is specifically for the iBuffalo SNES Gampad
+
 ## Installation
 
 ```js
@@ -29,6 +31,7 @@ controller.on( 'left:press', function() {
 controller.on( 'right:press', function() {
     console.log( 'right' );
 } );
+
 controller.on( 'x:press', function() {
     console.log( 'x' );
 } );
@@ -42,9 +45,7 @@ controller.on( 'start:release', function() {
 
 ## Support
 
-This library was built and tested with the Tomee SNES USB Controller pictured below:
-
-![https://raw.githubusercontent.com/carldanley/snes-controller/master/gamepad.jpg](https://raw.githubusercontent.com/carldanley/snes-controller/master/gamepad.jpg)
+This library is being built for the iBuffalo Classic USB Gamepad
 
 ## License
 
